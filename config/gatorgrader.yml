@@ -1,0 +1,14 @@
+---
+name: cmpsc-101-fall-2018-inclass
+break: true
+indent: 4
+---
+# --> check the source code for various characteristics
+# note that without an "--exact" the check is an "at least"
+src/main:
+    java:
+        inclass/IncorrectSwap.java:
+            --count 48
+            --single 6 --language Java
+            --multi 3 --language Java
+            --fragment "println(" --count 6 --exact
