@@ -36,7 +36,7 @@ public class IncorrectSwap {
     int first = 10;
     int second = 20;
     // output the initial values
-    System.out.println("This approach to swapping does not work!")
+    System.out.println("This approach to swapping does not work!");
     System.out.println("first = " + first);
     System.out.println("second = " + second);
     // perform the swap
@@ -44,7 +44,7 @@ public class IncorrectSwap {
     // output the final values
     // TODO: Add the correct println statement for first
     // TODO: Add the correct println statement for second
-    System.out.println("Can you explain why this method does not work?")
+    System.out.println("Can you explain why this method does not work?");
     // Write a two-line comment to explain why this does not work:
     // First line
     // Second line
