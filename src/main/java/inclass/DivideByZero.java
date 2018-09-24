@@ -10,25 +10,16 @@ package inclass;
 
 public class DivideByZero {
 
-  /**
-   * This method performs a division but does so incorrectly.
-   **/
   public static double divideIncorrect(double first, double second) {
     double result = first / second;
     return result;
   }
 
-  /**
-   * This method performs a division but does so incorrectly.
-   **/
   public static int divideIncorrect(int first, int second) {
     int result = first / second;
     return result;
   }
 
-  /**
-   * This method performs a division but does correctly.
-   **/
   public static double divide(double first, double second) {
     if (second != 0) {
       double result = first / second;
@@ -57,7 +48,7 @@ public class DivideByZero {
     double firstResult = divideIncorrect(first, second);
     // output the final values
     System.out.println("firstResult = " + firstResult);
-    // Step One Explain:
+
     // Step Two: Runs Correctly with Correct Method
     // output the value
     double third = 10.0;
@@ -69,7 +60,7 @@ public class DivideByZero {
     double secondResult = divide(third, fourth);
     // output the final value
     System.out.println("secondResult = " + secondResult);
-    // Step Two Explain:
+
     // Step Three: Runs Correctly with Incorrect Method
     // output the value
     System.out.println("This approach to division will not crash for these inputs:");
@@ -79,7 +70,7 @@ public class DivideByZero {
     secondResult = divideIncorrect(third, fourth);
     // output the final value
     System.out.println("secondResult = " + secondResult);
-    // Step Three Explain:
+
     // Step Four: Runs Incorrectly with an Incorrect Method and int values
     // output the value
     int fifth = 10;
@@ -91,7 +82,7 @@ public class DivideByZero {
     int thirdResult = divideIncorrect(fifth, zero);
     // output the final value
     System.out.println("secondResult = " + thirdResult);
-    // Step Four Explain:
+
   }
 
 }
