@@ -29,6 +29,13 @@ task(runIncorrectSwap, dependsOn: 'classes', type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 }
 
+// run: runDivideByZero
+task(runDivideByZero, dependsOn: 'classes', type: JavaExec) {
+    description = 'Run the inclass.DivideByZero program'
+    main = 'inclass.DivideByZero'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
 // perform checkstyle checking with the "gradle check" command
 apply plugin: 'checkstyle'
 checkstyle.toolVersion = '8.1'
