@@ -12,3 +12,10 @@ src/main:
             --single 6 --language Java
             --multi 3 --language Java
             --fragment "println(" --count 6 --exact
+src/main:
+    java:
+        inclass/DivideByZero.java:
+            --count 90
+            --single 20 --language Java
+            --multi 5 --language Java
+            --fragment "println(" --count 16 --exact
