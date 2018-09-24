@@ -60,6 +60,12 @@ submission must pass the following checks:
   - Contains exactly six uses of a `println(` statement
   - Contains at least 48 non-blank lines of source code
 
+- inclass/IncorrectSwap.java:
+  - Features at least twenty single-line comments
+  - Features at least five multiple-line comments
+  - Contains exactly sixteen uses of a `println(` statement
+  - Contains at least 90 non-blank lines of source code
+
 ## Updates
 
 If the course instructor updates the provided material for this assignment and
