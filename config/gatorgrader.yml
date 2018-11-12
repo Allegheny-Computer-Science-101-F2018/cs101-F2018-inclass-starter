@@ -19,3 +19,8 @@ src/main:
             --single 20 --language Java
             --multi 5 --language Java
             --fragment "println(" --count 16 --exact
+writing/coveros.md:
+    mdl
+    proselint
+    --paragraphs 1 --exact
+    --words 100

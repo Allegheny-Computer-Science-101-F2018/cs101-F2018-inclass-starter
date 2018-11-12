@@ -42,6 +42,7 @@ the command in the terminal and study the output.
 Here are the commands that are related to each of the in-class programming projects:
 
 - `gradle runIncorrectSwap` to run the `inclass.IncorrectSwap` program
+- `gradle runDivideByZero` to run the `inclass.DivideByZero` program
 
 ## Output
 
@@ -65,6 +66,10 @@ submission must pass the following checks:
   - Features at least five multiple-line comments
   - Contains exactly sixteen uses of a `println(` statement
   - Contains at least 90 non-blank lines of source code
+
+- inclass/writing/coveros.md:
+  - Passes all of the Markdown and prose linting checks
+  - Contains exactly one paragraph of at least 100 words
 
 ## Updates
 
