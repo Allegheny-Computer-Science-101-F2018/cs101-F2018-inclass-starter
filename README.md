@@ -71,6 +71,11 @@ submission must pass the following checks:
   - Passes all of the Markdown and prose linting checks
   - Contains exactly one paragraph of at least 100 words
 
+- inclass/writing/array\_lists.md:
+  - Passes all of the Markdown and prose linting checks
+  - Contains exactly five paragraphs of at least 50 words
+  - Contains the correct worst-case time complexities for four methods
+
 ## Updates
 
 If the course instructor updates the provided material for this assignment and
