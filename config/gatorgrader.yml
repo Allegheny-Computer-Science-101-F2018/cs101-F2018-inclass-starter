@@ -24,3 +24,10 @@ writing/coveros.md:
     proselint
     --paragraphs 1 --exact
     --words 100
+writing/array_lists.md:
+    mdl
+    proselint
+    --paragraphs 5 --exact
+    --words 50
+    --fragment "O(1)" --count 2 --exact
+    --fragment "O(n)" --count 2 --exact
